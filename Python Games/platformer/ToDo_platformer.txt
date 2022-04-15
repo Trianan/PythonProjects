@@ -1,0 +1,62 @@
+
+TO-DO:
+
+- Collisions to be implemented for platforms, in order to cancel falling and movement into them. (Collisions with top
+    of platforms implemented. Needs side collisions cancelling horizontal movement.)
+
+- Need to create and implement win object for levels, and progression through levels.
+
+- Create more levels. Maybe more mechanics like spikes or enemies.
+
+- If planning on implementing background art, need to figure out how to implement sprites that allow transparency,
+    such as .png format.
+
+- Add sounds via mixer.
+
+- Implementing main menu and pause menu.
+
+- Needs proper title.
+
+- Major refactoring and cleanup throughout process of project.
+
+- Need to create a system for smooth jumping. Either downward acceleration that cancels out upward movement speed,
+    or some other method. Method similar to horizontal deceleration could be used. *DONE* (Buggy)
+
+- Player needs to be moved with platform when on top *DONE*.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+BUGS:
+
+- Player sinks into platforms when landing on them.
+
+- If both horizontal-movement keys are held down and one is released, the player does not move in the direction
+    of the key that is still being held, and remains in place.
+
+- Player is launched vertically when jumping and colliding under a platform.
+
+- Player does not start in bottom-center of screen. *FIXED*
+
+- Player now moves very slowly to the left when both keys held down. *FIXED*
+
+- The current system of accelerating movement allows an exploit that enables the player to stack acceleration
+    by quickly alternating movement keys in a certain fashion. *FIXED*
+
+-----------------------------------------------------------------------------------------------------------------------
+
+NOTES:
+
+- The acceleration stacking could maybe get reworked into a proper game mechanic, it's kinda fun and makes the movement
+    more interesting.
+
+_______________________________________________________________________________________________________________________
+
+LINKS:
+
+- http://info.sonicretro.org/Category:Sonic_Physics_Guide
+    This is a helpful guide for implementing movement physics.
+
+- https://www.pygame.org/docs/
+    Docs for Pygame.
+
+-----------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,3 @@
+greek_letters = ['alpha', 'gamma', 'delta', 'beta']
+print(greek_letters)
+print(greek_letters)

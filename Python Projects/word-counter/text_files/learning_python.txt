@@ -1,0 +1,12 @@
+In Python you can store different values as variables.
+In Python you can manipulate number data using arithmetic.
+In Python you can use boolean values to control your programs.
+In Python you can store data in lists, tuples, and dictionaries.
+In Python you can use various recursive loops such as for or while loops.
+In Python you can manipulate strings using different methods and arithmetic.
+In Python you can represent real life objects as classes with attributes.
+In Python you can write and reuse your own functions.
+In Python you can store your own classes and functions in files called modules, and import them.
+In Python you can read and work with data from .txt files.
+In Python you can use other programmers' modules by downloading and importing them.
+In Python you can input data from a user to be used in a program.
